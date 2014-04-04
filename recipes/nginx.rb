@@ -13,4 +13,5 @@ end
 
 nginx_site 'kibana' do
   enable true
+  template false #template is already handled above
 end
